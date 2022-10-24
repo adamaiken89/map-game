@@ -1,0 +1,2 @@
+GET https://api.json-generator.com/templates/-xdNcNKYtTFG/data
+Authorization: Bearer {{VITE_API_KEY}}

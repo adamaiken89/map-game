@@ -1,0 +1,31 @@
+.list {
+  max-height: 90vh;
+  min-height: 90vh;
+  overflow: auto;
+  border: solid;
+}
+
+.content {
+  max-height: 90vh;
+  min-height: 90vh;
+  overflow: auto;
+  border: solid;
+}
+
+.item:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+#map {
+  height: 65vh;
+  width: 100%;
+}
+
+.subitem {
+  padding-left: 2rem;
+  max-height: 20vh;
+  min-height: 20vh;
+  overflow: auto;
+  border: solid;
+}
