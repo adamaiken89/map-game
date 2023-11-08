@@ -1,7 +1,7 @@
 import { Friend } from "../../types";
 import { FriendItem } from "./FriendItem";
 
-type Props = { friends: Friend[]; clickEvent: Function };
+type Props = { friends: Friend[]; clickEvent: React.Dispatch<React.SetStateAction<Friend | null>> };
 export const FriendList = ({ friends, clickEvent }: Props) => {
   return (
     <>

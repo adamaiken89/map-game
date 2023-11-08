@@ -22,9 +22,9 @@ const render = (friend: Friend | null) => {
 };
 
 function App() {
-  const [friends, setFriends]: [Friend[], Function] = useState([]);
-  const [selectedFriend, setSelectedFriend]: [Friend | null, Function] =
-    useState(null);
+  const [friends, setFriends] = useState<Friend[]>([]);
+  const [selectedFriend, setSelectedFriend] =
+    useState<Friend | null>(null);
   useEffect(() => {
     getAsyncFriends().then((response) => {
       setFriends(response);
